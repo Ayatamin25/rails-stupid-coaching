@@ -1,0 +1,9 @@
+<%# The answer.html.erb will display the question you ask your
+ coach as well as his answer. The controller will need to
+read the question from params and compute an instance variable @answer %>
+<%#  %>
+
+<h1>Stupid Coaching</h1>
+    <p><%= @answers.capitalize %></p>
+
+<%= link_to "go back", ask_path %>
